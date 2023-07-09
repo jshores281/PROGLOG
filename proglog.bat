@@ -43,8 +43,11 @@ if %dir%==1 (
 :: do a connection check
 if %dir%==2 (
   echo Remote directory was selected
-  set /p remote_dir="Type NAS full path and file: "
-  set proglog_dir="%remote_dir%"
+  echo type NAS server to connect to:
+  set /p remote_dir=
+  net use "%remote_dir%"
+  echo set full path with file to read/write:
+  set /p proglog_dir=
 )
 
 if %dir%==3 (
@@ -146,5 +149,5 @@ if %loopend% == y (
 ::~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 :EO
 echo.
-echo Have a good time, Joshua!
+echo Have a good time!
 ::~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
