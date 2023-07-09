@@ -5,6 +5,7 @@ A progress tracking program for keeping long term notes over program projects, d
 
 <br>
 
-![Capture](https://github.com/jshores281/PROGLOG/assets/52839097/56faa990-1a0b-4a90-9ec7-e2688006dfe8)
+![Capture](https://github.com/jshores281/PROGLOG/assets/52839097/b9567fae-86ec-43fa-8e3c-e53e64309fc8)
+
 
 
