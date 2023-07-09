@@ -1,7 +1,7 @@
 ProgLog 
 ----------------------------------------
 ----------------------------------------
-A simple command line interface utility for making progress notes, daily to-do lists or any kind notes needed for future reference. 
+A simple command line interface utility for making progress notes, daily to-do lists or any kind of notes needed for future reference. 
 
 <br>
 
