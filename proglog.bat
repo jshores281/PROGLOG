@@ -37,13 +37,14 @@ set /p dir="> "
 
 if %dir%==1 (
   echo Local directory was selected
-  set proglog_dir="%userprofile%\Documents\proglog_CURRENT.txt"
+  set proglog_dir="C:\users\%username%\Documents\proglog_CURRENT.txt"
 )
 
 :: do a connection check
 if %dir%==2 (
-  echo Remote directory was selected  
-  set proglog_dir="\\remote-server\proglog072023.txt"
+  echo Remote directory was selected
+  set /p remote_dir="Type NAS full path and file: "
+  set proglog_dir="%remote_dir%"
 )
 
 if %dir%==3 (

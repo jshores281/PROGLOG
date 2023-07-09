@@ -1,7 +1,7 @@
 ProgLog 
 ----------------------------------------
 ----------------------------------------
-A progress tracking program for keeping long term notes over program projects, daily to-do lists or any kind of reminders need. 
+A simple command line interface utility for making progress notes, daily to-do lists or any kind notes needed for future reference. 
 
 <br>
 
